@@ -1,0 +1,244 @@
+@import '../../theme/styles/themes';
+@import '~bootstrap/scss/mixins/breakpoints';
+@import '~@nebular/theme/styles/global/breakpoints';
+@import '~@angular/material/theming';
+@import '~@nebular/theme/styles/theming';
+@import '~@nebular/theme/styles/themes/default';
+
+
+/* ----------------------------------*/
+
+.header-list-pages{
+  //border-top: 1px solid #e9e9e6;
+  border-bottom: 1px solid #95d0ff;
+  //background-color: #598bff83;
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  padding: 8px;
+
+  .title{
+    span{
+      font-size: 12px;
+      text-transform: uppercase;
+      font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: #0089f7;
+    }
+  }
+
+
+}
+
+
+.content-list-pages{
+position: absolute;
+//left:0;
+width: 100%;
+height: 260px;
+margin-top: 35px;
+//border: 1px solid #ccc;
+//overflow-x: hidden;
+//@debug: scroll;
+//&::-webkit-scrollbar { width: 0 !important }
+
+/* &::-webkit-scrollbar-track
+{
+//-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+background-color: #F5F5F5;
+border-radius: 10px;
+}
+
+&::-webkit-scrollbar
+{
+width: 10px;
+background-color: #F5F5F5;
+}
+
+&::-webkit-scrollbar-thumb
+{
+background-color: rgb(221, 220, 220);
+border-radius: 10px;
+
+}
+ */
+
+}
+
+.list-components{
+margin-top: 215px;
+display: block;
+
+.header-list-components{
+border-top: 1px solid #95d0ff;
+border-bottom: 1px solid #95d0ff;
+//background-color: #598bff83;
+position: absolute;
+left:0;
+width: 100%;
+align-items: center;
+display: flex;
+padding: 8px;
+
+span{
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #0089f7;
+}
+
+}
+
+
+.component-properties{
+  position: absolute;
+//left:0;
+width: 100%;
+height: 550px;
+margin-top: 42px;
+overflow-x: hidden;
+overflow-y: scroll;
+&::-webkit-scrollbar { width: 0 !important }
+
+&::-webkit-scrollbar-track
+{
+//-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+background-color: #F5F5F5;
+border-radius: 10px;
+}
+
+&::-webkit-scrollbar
+{
+width: 10px;
+background-color: #F5F5F5;
+}
+
+&::-webkit-scrollbar-thumb
+{
+background-color: rgb(221, 220, 220);
+border-radius: 10px;
+
+}
+
+
+
+  .title{
+    border-top: 1px solid #e9e9e6;
+    border-bottom: 1px solid #e9e9e6;
+    background-color: #e1e3e4;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    padding: 8px;
+
+    .breadcrumb-left {
+      font-size: 12px;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      font-weight: 900;
+      letter-spacing: 2px;
+      color: #a2aaad;
+      transition: 0.1s linear;
+      -webkit-transition: 0.1s linear;
+      -moz-transition: 0.1s linear;
+
+      &:hover {
+        cursor: pointer;
+        color: #4084f6;
+        transition: 0.1s linear;
+        -webkit-transition: 0.1s linear;
+        -moz-transition: 0.1s linear; }
+
+      }
+
+  }
+
+  .properties-form1{
+    position: absolute;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    width: 100%;
+
+   .form-group{
+    width: 90% !important;
+    display: inline-block !important;
+    padding: 0px !important;
+
+    label{
+      text-transform: uppercase;
+      font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      //font-weight: 500;
+      color: #1160e9;
+      //letter-spacing: 2px;
+      font-size: 10px;
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+
+    input,.color,textarea,.switch-field,span{
+      float: right;
+      width: 150px;
+      margin-right: 8px;
+
+    }
+    input::placeholder{
+      font-size: 10px;
+
+    }
+
+
+
+
+   }
+
+   .page-custome{
+
+    .form-title{
+
+      margin-top: 12px;
+
+      span{
+        font-size: 0.99rem;
+        font-weight: bold;
+        color: #4084f6;
+
+
+      }
+    }
+
+     }
+
+     .btn-delete{
+       position: relative;
+       bottom: 0;
+      margin-top: auto;
+      margin-left: auto;
+      float: right;
+      padding:10px 35px 10px 0;
+
+     }
+
+    }
+
+   }
+
+}
+
+
+
+
+
+
+
+
