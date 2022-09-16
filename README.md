@@ -32,7 +32,7 @@ A step by step series of examples that tell you how to get a development env run
 * Clone project into your DocumentRoot path by running
 
 ```
-git clone https://github.com/hamzaouazzi/AppScalr-FrontEnd.git
+git clone https://github.com/darfiomar/AppScalr-FrontEnd.git
 ```
 * Change into project folder 
 
@@ -82,5 +82,5 @@ Studio
 
 ## License
 
-This project is licensed under WEETEK DIGITAL FACTORY
+This project is licensed under ENSA Agadir.
 
